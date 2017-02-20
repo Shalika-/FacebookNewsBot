@@ -8,7 +8,7 @@ if(isset($_REQUEST['hub_challenge'])){
 	$challenge = $_REQUEST['hub_challenge'];
 	$token = $_REQUEST['hub_verify_token'];
 
-	if($token == "JLSEHtw84t08wfe8"){
+	if($token == "<VERIFY_TIKEN>"){
 		echo $challenge;
 		die();
 	}
