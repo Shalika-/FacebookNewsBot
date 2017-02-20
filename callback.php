@@ -2,7 +2,7 @@
 
 require_once("functions.php");
 
-$accessToken = "EAAZAZB2enmBAcBABxh2EjNlXTgFnJK3DtMz619bkx4UaobMPZBQ0mRVm8yghrlZAMYCYzRiIWQQGlQpc0WdMGbeQGpwvlPZBN2Tb2E7Yj57ZCjDXqs78DKh98DS4RepeoPkYhmgjMc3AykqXre2Nj4ZAQgoy3qi76yLALRqWoxYZBwZDZD";
+$accessToken = "<ACCESS_TOKEN>";
 
 if(isset($_REQUEST['hub_challenge'])){
 	$challenge = $_REQUEST['hub_challenge'];
